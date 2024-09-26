@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#2196F3"/>
+    <link rel="manifest" href="/manifest.json">
+    <link rel="stylesheet" href="styles.css">
+    <title>Input Surat</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Penginputan Data Surat</h1>
+        <form id="inputForm">
+            <label for="noSurat">No Surat:</label>
+            <input type="text" id="noSurat" name="noSurat" required><br><br>
+
+            <label for="tanggalMasuk">Tanggal Masuk:</label>
+            <input type="date" id="tanggalMasuk" name="tanggalMasuk" required><br><br>
+
+            <label for="pengirim">Pengirim:</label>
+            <input type="text" id="pengirim" name="pengirim" required><br><br>
+
+            <label for="perihal">Perihal:</label>
+            <input type="text" id="perihal" name="perihal" required><br><br>
+
+            <button type="submit">Submit</button>
+        </form>
+
+        <!-- Form untuk mencari surat -->
+        <form id="searchForm">
+            <h2>Cari Data Surat</h2>
+            <label for="searchNoSurat">No Surat:</label>
+            <input type="text" id="searchNoSurat" placeholder="Masukkan No Surat">
+
+            <label for="searchPengirim">Pengirim:</label>
+            <input type="text" id="searchPengirim" placeholder="Masukkan Nama Pengirim">
+
+            <button type="submit">Cari Surat</button>
+        </form>
+
+        <div id="searchResult"></div>
+
+                <div id="output"></div>
+            </div>
+
+            <script src="app.js"></script>
+</body>
+</html>

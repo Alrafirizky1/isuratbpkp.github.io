@@ -1,0 +1,109 @@
+/* Global styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-brand {
+    font-size: 1.6em;
+    color: #0c0c0c;
+}
+
+/* Centered login box */
+#loginbox {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.mainbox {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+/* Panel styling */
+.panel-info {
+    border-color: #2196F3;
+}
+
+.panel-info > .panel-heading {
+    background-color: #2196F3;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+
+.panel-body {
+    padding: 20px;
+}
+
+.input-group-addon {
+    background-color: #2196F3;
+    color: #fff;
+    border: none;
+}
+
+/* Form styling */
+.form-control {
+    border-radius: 0;
+}
+
+input[type="text"],
+input[type="password"] {
+    padding: 10px;
+    font-size: 14px;
+}
+
+.btn-success {
+    background-color: #4CAF50;
+    border: none;
+    width: 100%;
+    padding: 10px;
+    color: white;
+    font-size: 16px;
+}
+
+.btn-success:hover {
+    background-color: #45a049;
+}
+
+.dropdown-toggle {
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.dropdown-menu {
+    width: 100%;
+}
+
+.checkbox label {
+    font-size: 14px;
+}
+
+/* Mobile responsive styles */
+@media (max-width: 768px) {
+    .navbar-brand {
+        font-size: 1.4em;
+    }
+
+    .mainbox {
+        margin-top: 50px;
+        max-width: 90%;
+    }
+
+    .panel-heading {
+        font-size: 16px;
+    }
+
+    .btn-success {
+        font-size: 14px;
+    }
+
+    input[type="text"],
+    input[type="password"] {
+        font-size: 12px;
+    }
+}
